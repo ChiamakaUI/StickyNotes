@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="manifest" href="manifest.json"/>
+    <title>Sticky Notes</title>
+</head>
+<body>
+<div class="header">
+    <h2>Sticky Notes</h2>
+    <p>By Chiamaka</p>
+</div>
+
+    <div class="form">
+        <form id="inputForm">
+            <input type="text" class="inputText" id = "new-note-title" placeholder="Note title"
+            required autofocus autocomplete="off"/>
+            <input type="text" class="inputText" id = "new-note-content" placeholder="Note content"
+            required autocomplete="off"/>
+            <button id="btn">Create Note</button>
+        </form>
+        
+    </div>
+
+    <h4 id="no-notes"> Please add a note!</h4>
+
+    <ul id="notes"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
