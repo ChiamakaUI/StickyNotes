@@ -175,6 +175,7 @@ ul li:nth-child(7n) a {
   -moz-transform: rotate(-3deg);
   position: relative;
   top: 10px;
+  color: #fff;
   background: #000000;
 }
 
